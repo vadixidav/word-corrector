@@ -1,2 +1,9 @@
+# This project
+/en.txt
+
+# Rust
 /target
 Cargo.lock
+
+# VS Code
+.vscode/

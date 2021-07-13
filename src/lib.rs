@@ -8,7 +8,7 @@ use hgg::HggLite;
 use space::{Knn, MetricPoint, Neighbor};
 
 pub struct Index {
-    hgg: HggLite<Word, ()>,
+    pub hgg: HggLite<Word, ()>,
 }
 
 impl Index {
@@ -37,7 +37,7 @@ impl Default for Index {
     }
 }
 
-struct Word(String);
+pub struct Word(pub String);
 
 impl MetricPoint for Word {
     type Metric = u32;
