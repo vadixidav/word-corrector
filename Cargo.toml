@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-edit-distance = "2.1.0"
 hgg = "0.3.0"
 space = "0.14.0"
+triple_accel = "0.4.0"
 
 [profile.release]
 lto = "fat"
